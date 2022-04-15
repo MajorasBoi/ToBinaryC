@@ -1,1 +1,1 @@
-# ToBinaryConvertor
+# ToBinaryConverter
