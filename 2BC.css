@@ -1,0 +1,71 @@
+*{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+    margin: 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(to right,#d2d2d7,#ffffff);
+}
+
+h1{
+    margin-top:  1mm;
+}
+
+#ConvertorContainer{
+    box-shadow: 0 0 15px 1px #afafb4;
+    text-align: center;
+    margin-top: 30vh;
+    height:150px;
+    width:500px;  
+    background: blanchedalmond;
+    border:2px solid #ffffff; 
+    background-color:white;
+    border-radius: 3mm;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+input{
+    border-radius: 1mm;
+    border-color: #d2d2d7;
+    border-width: 0.5px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+#intro{
+    margin-bottom: 10px;
+    margin-top: -15px;
+}
+
+button {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    border: 0.5px solid #7d7d83;
+	border-radius: 5mm;
+    padding: 4px;
+    width: 90%;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+button.enter {
+	color: rgba(30, 22, 54);
+	box-shadow: rgba(30, 22, 54) 0 0px 0px 2px inset;
+}
+
+button.enter:hover {
+	color: rgba(255, 255, 255);
+	box-shadow: rgba(0, 0, 0) 0 80px 0px 2px inset;
+}
